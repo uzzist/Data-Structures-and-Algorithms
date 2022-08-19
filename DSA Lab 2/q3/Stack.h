@@ -25,7 +25,7 @@ public:
 		else
 		{
 			cout << "Error! Stack is empty\n";
-			return 0;
+			return "";
 		}
 	}
 	T Top()
@@ -38,7 +38,7 @@ public:
 		else
 		{
 			cout << "Error! Stack is empty\n";
-			return -1;
+			return "";
 		}
 	}
 	bool isEmpty()
